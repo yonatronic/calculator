@@ -1,0 +1,94 @@
+body {
+  background: linear-gradient(to right, black, gray);
+}
+
+.whole-calculator {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-left: 30%;
+  margin-top: 8%;
+}
+
+.calculator {
+  width: inherit;
+}
+
+input {
+  background: linear-gradient(to left, rgb(212, 212, 212), rgb(170, 170, 170));
+  backdrop-filter: blur(200px) brightness(60%) contrast(140%);
+  -webkit-backdrop-filter: blur(200px) brightness(60%) contrast(140%);
+  width: 280px;
+  height: 37px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: px px 5px rgba(0, 0, 0, 0.75);
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding-right: 30px;
+  text-align: right;
+  margin-bottom: 25px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+input::-moz-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.rows {
+  margin-left: 8px;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.row-components {
+  background-color: black;
+  color: white;
+  width: 60px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+  margin-left: 7px;
+  margin-top: 5px;
+}
+
+.row-components:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+
+.row-components:active {
+  opacity: 0.7;
+}
+
+#equal-to {
+  background-color: rgb(60, 60, 255);
+}
+
+#equal-to:hover {
+  background-color: rgb(78, 78, 252);
+}
+
+#equal-to:active {
+  opacity: 0.7;
+}/*# sourceMappingURL=index.css.map */

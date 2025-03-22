@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="whole-calculator">
+    <div class="calculator">
+      <input class="input-box" type="text" >
+    </div>
+    <div class="buttons">      
+      <div class="rows">
+        <button class="row-components"
+        onclick="
+          numberWork('%')
+        "        
+        >
+          &percnt;
+        </button>  
+        <button class="row-components"
+        onclick="
+          clears();
+        "
+        >
+          CE
+        </button>     
+        <button class="row-components"
+        onclick="
+          clears();
+        ">
+          C
+        </button>  
+        <button class="row-components"
+        onclick="
+          removal();
+        " >
+          ←
+        </button>      
+      </div>
+      <div class="rows">
+        <button class="row-components"
+        onclick="
+          reciprocal();
+        "
+        >
+          1/x
+        </button>  
+        <button class="row-components">
+          x<sup>2</sup>
+        </button>     
+        <button class="row-components"
+          onclick="
+          numberWork('&radic;')
+        " 
+        >
+          &radic;x         
+        </button>  
+        <button class="row-components"
+        onclick="
+        numberWork('/')
+      " >
+          &divide;
+        </button>    
+      </div>
+      <div class="rows">
+        <button class="row-components"
+        onclick="
+        numberWork('7')
+      " 
+        >
+          7
+        </button>  
+        <button class="row-components"
+        onclick="
+        numberWork('8')
+      " >
+          8
+        </button>     
+        <button class="row-components"
+        onclick="
+        numberWork('9')
+      " >
+          9
+        </button>  
+        <button class="row-components"
+        onclick="
+        numberWork('*')
+      " >
+          &times;
+        </button>    
+      </div>
+      <div class="rows">
+        <button class="row-components"
+        onclick="
+        numberWork('4')
+      " >
+          4
+        </button>  
+        <button class="row-components"
+        onclick="
+        numberWork('5')
+      " >
+          5
+        </button>     
+        <button class="row-components"
+        onclick="
+        numberWork('6')
+      " >
+          6
+        </button>  
+        <button class="row-components"
+        onclick="
+        numberWork('-')
+      " >
+          &minus;
+        </button> 
+      </div>
+      <div class="rows">
+        <button class="row-components"
+        onclick="
+        numberWork('1')
+      " >
+          1
+        </button> 
+        <button class="row-components"
+        onclick="
+        numberWork('2')
+      " >
+          2
+        </button>     
+        <button class="row-components"
+        onclick="
+        numberWork('3')
+      " >
+          3
+        </button>  
+        <button class="row-components"
+        onclick="
+        numberWork('&plus;')
+      " >
+          &plus;
+        </button> 
+      </div>
+      <div class="rows">
+        <button class="row-components"
+        onclick="
+          signChange();
+      " >
+          +/-
+        </button> 
+        <button class="row-components"
+        onclick="
+        numberWork('0')
+      " >
+          0
+        </button>     
+        <button class="row-components"
+        onclick="
+        numberWork('*')
+      " >
+          &times;
+        </button>  
+        <button class="row-components" id="equal-to"
+        onclick="
+          calc();
+        "
+        >
+          &equals;
+        </button> 
+      </div>
+    </div>
+  </div>
+  
+  <script src="index1.js"></script>
+</body>
+</html>
