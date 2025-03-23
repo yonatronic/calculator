@@ -6,4 +6,4 @@ tnx for seeing my work
 
 __🚀🙏😊💖🌟🥰🕊️__
 
-__to see it clone it and open it with live server__
+__to see it clone it and open it with live server in the html file__
